@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html,
+body,
+body > #root {
+  font-family: 'Roboto';
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+// scrollbar personalization for firefox
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c4c4c4;
+}
+
+// scrollbar personalization for chrome and safari
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b1b1b1;
+}
+
+.m16 {
+  margin: 12px 0 !important;
+}
+
+.checkbox {
+  display: flex;
+  padding-bottom: 5px;
+  .inputCheckbox {
+    margin-right: 15px;
+  }
+}
+
+//Custom
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

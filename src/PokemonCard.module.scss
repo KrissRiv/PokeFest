@@ -1,0 +1,27 @@
+.pokeFest {
+  &Card {
+    background-color: ghostwhite;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 10px;
+    min-width: 200px;
+    div {
+      margin: 5px;
+      width: 100%;
+    }
+    &_name{
+      font-weight: bold;
+    }
+    &_stats{
+      font-size: 10px;
+    }
+  }
+  &List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
